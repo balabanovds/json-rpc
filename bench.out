@@ -1,0 +1,25 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/balabanovds/jsonrpc/internal/parsers
+BenchmarkParserUnmarshal/std-4         	  889521	      1784 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	  834379	      1464 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	  906615	      1734 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	 1000000	      1233 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	 1000000	      1294 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	  890078	      1334 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	  901923	      1307 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	  767180	      1727 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	 1000000	      1627 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/std-4         	 1000575	      1305 ns/op	     224 B/op	       6 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2953186	       516 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 1881489	      1401 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2971980	       408 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2792418	       473 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2748308	       575 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 1000000	      1955 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2505541	       420 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2916978	       422 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2028703	       564 ns/op	      48 B/op	       5 allocs/op
+BenchmarkParserUnmarshal/iter-4        	 2566628	       462 ns/op	      48 B/op	       5 allocs/op
+PASS
+ok  	github.com/balabanovds/jsonrpc/internal/parsers	37.178s
