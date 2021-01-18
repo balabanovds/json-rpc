@@ -25,6 +25,6 @@ func (p *Parser) Write(w io.Writer, data interface{}) error {
 	return json.NewEncoder(w).Encode(data)
 }
 
-func (p *Parser) Reader(r io.Reader, v interface{}) error {
+func (p *Parser) Read(r io.Reader, v interface{}) error {
 	return json.NewDecoder(r).Decode(v)
 }
